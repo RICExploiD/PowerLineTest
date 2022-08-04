@@ -1,6 +1,8 @@
-﻿using PowerLineTest.CarModels.Composition.Interfaces;
+﻿namespace PowerLineTest.CarModels.Composition;
 
-namespace PowerLineTest.CarModels.Composition
-{
-    public class Passenger : IExisting { public double Weight { get; init; } }
+using PowerLineTest.CarModels.Composition.Interfaces;
+
+public class Passenger : IExisting 
+{ 
+    public double Weight { get; init; } 
 }
